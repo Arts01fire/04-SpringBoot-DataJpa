@@ -14,6 +14,8 @@ public class Application {
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
 	
 	
+
+           System.out.println(" hi...");
 	ContactRepo repo=context.getBean(ContactRepo.class);
 	
 	Contact c=new Contact();
